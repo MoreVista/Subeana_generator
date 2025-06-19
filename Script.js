@@ -1,5 +1,5 @@
 async function loadFontAndDraw() {
-  const font = new FontFace('MyCustomFont', 'url(./GenZenGothicKaiC.ttf)');
+  const font = new FontFace('MyCustomFont', 'url(./Subeana_generator/GenZenGothicKaiC.ttf)');
   await font.load();
   document.fonts.add(font);
   generateImage();
