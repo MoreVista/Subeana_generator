@@ -1,0 +1,28 @@
+@charset "utf-8";
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./GenZenGothicKaiC.ttf") format("truetype"); 
+    font-display: swap;
+  }
+h1.text{
+  font-weight: normal;
+  font-family: MyCustomFont;
+  font-size: 120%;
+}
+h1.ui{
+  font-weight: normal;
+  font-family: MyCustomFont;
+  font-size: 80%;
+}
+h1.credit{
+  font-weight: normal;
+  font-family: MyCustomFont;
+  font-size: 80%;
+}
+#canvas {
+  width: 90%;
+  height: auto;
+  max-width: 100vw;
+  display: block;
+  margin: 20px auto;
+}

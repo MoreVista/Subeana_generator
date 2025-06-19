@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>全てあなたの所為です。画像シュミレータ</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <style>
+    @font-face {
+      font-family: 'MyCustomFont';
+      src: url('./GenZenGothicKaiC') format('truetype');
+    }
+    body {
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    #canvas {
+      border: 1px solid #ccc;
+      margin-top: 20px;
+    }
+
+    .controls {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text">全てあなたの所為です。画像シュミレータ</h1>
+  <div class="controls">
+    <input type="text" id="inputText" placeholder="ここにテキストを入力">
+    <button onclick="generateImage()">画像作成</button>
+    <button onclick="downloadImage()">ダウンロード</button>
+    </br>
+    <h1 class="ui">フォントサイズ: 
+      <input type="number" id="fontSizeInput" placeholder="65" value="65" min="1" style="width: 40px;">
+px </h1>
+  </div>
+  <canvas id="canvas" width="1920" height="1080">お使いのデバイスはサポートされていません。</canvas>
+
+  <!-- JavaScriptファイルを読み込む -->
+  <script src="script.js"></script>
+  <h1 class="credit">
+  クレジット
+  </br>
+  本サイトでは「源全ゴシック改」(https://drive.google.com/drive/folders/19WidrJoCmI5qLJV-eR_ydURIwxB2-DSH) を使用しています。
+</br>
+Licensed under SIL Open Font License 1.1 http://scripts.sil.org/OFL
+</br>
+© 2021 全て語り手の所為です。
+</br>
+当サイトは非公式です。
+</body>
+</html>
