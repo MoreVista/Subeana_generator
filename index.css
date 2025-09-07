@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
     font-family: "MyCustomFont";
-    src: url("./Subeana_generator/GenZenGothicKaiC.ttf") format("truetype"); 
+    src: url("./GenZenGothicKaiC.ttf") format("truetype"); 
     font-display: swap;
   }
 h1.text{
@@ -26,3 +26,4 @@ h1.credit{
   display: block;
   margin: 20px auto;
 }
+
